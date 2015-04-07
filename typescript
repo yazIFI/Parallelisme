@@ -1,0 +1,2268 @@
+Script started on Wed 25 Mar 2015 01:18:17 PM PDT
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./scri[K[K[K[K[K[Kchmod +x script 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==8618== Memcheck, a memory error detector
+==8618== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8618== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8618== Command: ./prefix.out
+==8618== 
+==8618== 
+==8618== HEAP SUMMARY:
+==8618==     in use at exit: 2,236 bytes in 13 blocks
+==8618==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8618== 
+==8618== LEAK SUMMARY:
+==8618==    definitely lost: 88 bytes in 4 blocks
+==8618==    indirectly lost: 320 bytes in 3 blocks
+==8618==      possibly lost: 144 bytes in 1 blocks
+==8618==    still reachable: 1,684 bytes in 5 blocks
+==8618==         suppressed: 0 bytes in 0 blocks
+==8618== Rerun with --leak-check=full to see details of leaked memory
+==8618== 
+==8618== For counts of detected and suppressed errors, rerun with: -v
+==8618== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==8644== Memcheck, a memory error detector
+==8644== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8644== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8644== Command: ./prefix.out
+==8644== 
+==8644== 
+==8644== HEAP SUMMARY:
+==8644==     in use at exit: 2,236 bytes in 13 blocks
+==8644==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8644== 
+==8644== LEAK SUMMARY:
+==8644==    definitely lost: 88 bytes in 4 blocks
+==8644==    indirectly lost: 320 bytes in 3 blocks
+==8644==      possibly lost: 144 bytes in 1 blocks
+==8644==    still reachable: 1,684 bytes in 5 blocks
+==8644==         suppressed: 0 bytes in 0 blocks
+==8644== Rerun with --leak-check=full to see details of leaked memory
+==8644== 
+==8644== For counts of detected and suppressed errors, rerun with: -v
+==8644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [7@chmod +x [C[C[C[C[C[C[C[7P./[C[C[C[C[C[C[C
+==8665== Memcheck, a memory error detector
+==8665== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8665== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8665== Command: ./prefix.out
+==8665== 
+==8665== Invalid read of size 4
+==8665==    at 0x8049061: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8665==    by 0x80491BF: main (in /home/user/Desktop/TP3/prefix.out)
+==8665==  Address 0x426b388 is 0 bytes after a block of size 64 alloc'd
+==8665==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==8665==    by 0x8048EA7: prefix (in /home/user/Desktop/TP3/prefix.out)
+==8665==    by 0x804916E: main (in /home/user/Desktop/TP3/prefix.out)
+==8665== 
+==8665== 
+==8665== HEAP SUMMARY:
+==8665==     in use at exit: 2,236 bytes in 13 blocks
+==8665==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8665== 
+==8665== LEAK SUMMARY:
+==8665==    definitely lost: 88 bytes in 4 blocks
+==8665==    indirectly lost: 320 bytes in 3 blocks
+==8665==      possibly lost: 144 bytes in 1 blocks
+==8665==    still reachable: 1,684 bytes in 5 blocks
+==8665==         suppressed: 0 bytes in 0 blocks
+==8665== Rerun with --leak-check=full to see details of leaked memory
+==8665== 
+==8665== For counts of detected and suppressed errors, rerun with: -v
+==8665== ERROR SUMMARY: 15 errors from 1 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+exo3.c: In function ‘suffixe’:
+exo3.c:204:8: error: ‘i’ undeclared (first use in this function)
+   for (i = 0; i < c->size; ++i)
+        ^
+exo3.c:204:8: note: each undeclared identifier is reported only once for each function it appears in
+exo3.c:206:5: error: ‘SSUM’ undeclared (first use in this function)
+     SSUM->tab[i]=c->tab[i];
+     ^
+==8687== Memcheck, a memory error detector
+==8687== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8687== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8687== Command: ./prefix.out
+==8687== 
+==8687== Invalid read of size 4
+==8687==    at 0x8049061: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8687==    by 0x80491BF: main (in /home/user/Desktop/TP3/prefix.out)
+==8687==  Address 0x426b388 is 0 bytes after a block of size 64 alloc'd
+==8687==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==8687==    by 0x8048EA7: prefix (in /home/user/Desktop/TP3/prefix.out)
+==8687==    by 0x804916E: main (in /home/user/Desktop/TP3/prefix.out)
+==8687== 
+==8687== 
+==8687== HEAP SUMMARY:
+==8687==     in use at exit: 2,236 bytes in 13 blocks
+==8687==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8687== 
+==8687== LEAK SUMMARY:
+==8687==    definitely lost: 88 bytes in 4 blocks
+==8687==    indirectly lost: 320 bytes in 3 blocks
+==8687==      possibly lost: 144 bytes in 1 blocks
+==8687==    still reachable: 1,684 bytes in 5 blocks
+==8687==         suppressed: 0 bytes in 0 blocks
+==8687== Rerun with --leak-check=full to see details of leaked memory
+==8687== 
+==8687== For counts of detected and suppressed errors, rerun with: -v
+==8687== ERROR SUMMARY: 15 errors from 1 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [7@chmod +x [C[C[C[C[C[C[C[7P./[C[C[C[C[C[C[C
+exo3.c: In function ‘suffixe’:
+exo3.c:204:8: error: ‘i’ undeclared (first use in this function)
+   for (i = 0; i < c->size; ++i)
+        ^
+exo3.c:204:8: note: each undeclared identifier is reported only once for each function it appears in
+exo3.c:206:5: error: ‘SSUM’ undeclared (first use in this function)
+     SSUM->tab[i]=c->tab[i];
+     ^
+exo3.c: In function ‘main’:
+exo3.c:232:11: error: ‘SSUM’ undeclared (first use in this function)
+   suffixe(SSUM,PSUM,'m');
+           ^
+==8724== Memcheck, a memory error detector
+==8724== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8724== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8724== Command: ./prefix.out
+==8724== 
+==8724== Invalid read of size 4
+==8724==    at 0x8049061: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8724==    by 0x80491BF: main (in /home/user/Desktop/TP3/prefix.out)
+==8724==  Address 0x426b388 is 0 bytes after a block of size 64 alloc'd
+==8724==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==8724==    by 0x8048EA7: prefix (in /home/user/Desktop/TP3/prefix.out)
+==8724==    by 0x804916E: main (in /home/user/Desktop/TP3/prefix.out)
+==8724== 
+==8724== 
+==8724== HEAP SUMMARY:
+==8724==     in use at exit: 2,236 bytes in 13 blocks
+==8724==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8724== 
+==8724== LEAK SUMMARY:
+==8724==    definitely lost: 88 bytes in 4 blocks
+==8724==    indirectly lost: 320 bytes in 3 blocks
+==8724==      possibly lost: 144 bytes in 1 blocks
+==8724==    still reachable: 1,684 bytes in 5 blocks
+==8724==         suppressed: 0 bytes in 0 blocks
+==8724== Rerun with --leak-check=full to see details of leaked memory
+==8724== 
+==8724== For counts of detected and suppressed errors, rerun with: -v
+==8724== ERROR SUMMARY: 15 errors from 1 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+exo3.c: In function ‘suffixe’:
+exo3.c:207:5: error: ‘SSUM’ undeclared (first use in this function)
+     SSUM->tab[i]=c->tab[i];
+     ^
+exo3.c:207:5: note: each undeclared identifier is reported only once for each function it appears in
+exo3.c: In function ‘main’:
+exo3.c:233:11: error: ‘SSUM’ undeclared (first use in this function)
+   suffixe(SSUM,PSUM,'m');
+           ^
+==8750== Memcheck, a memory error detector
+==8750== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8750== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8750== Command: ./prefix.out
+==8750== 
+==8750== Invalid read of size 4
+==8750==    at 0x8049061: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8750==    by 0x80491BF: main (in /home/user/Desktop/TP3/prefix.out)
+==8750==  Address 0x426b388 is 0 bytes after a block of size 64 alloc'd
+==8750==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==8750==    by 0x8048EA7: prefix (in /home/user/Desktop/TP3/prefix.out)
+==8750==    by 0x804916E: main (in /home/user/Desktop/TP3/prefix.out)
+==8750== 
+==8750== 
+==8750== HEAP SUMMARY:
+==8750==     in use at exit: 2,236 bytes in 13 blocks
+==8750==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8750== 
+==8750== LEAK SUMMARY:
+==8750==    definitely lost: 88 bytes in 4 blocks
+==8750==    indirectly lost: 320 bytes in 3 blocks
+==8750==      possibly lost: 144 bytes in 1 blocks
+==8750==    still reachable: 1,684 bytes in 5 blocks
+==8750==         suppressed: 0 bytes in 0 blocks
+==8750== Rerun with --leak-check=full to see details of leaked memory
+==8750== 
+==8750== For counts of detected and suppressed errors, rerun with: -v
+==8750== ERROR SUMMARY: 15 errors from 1 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [7@chmod +x [C[C[C[C[C[C[C[7P./[C[C[C[C[C[C[C
+==8776== Memcheck, a memory error detector
+==8776== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8776== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8776== Command: ./prefix.out
+==8776== 
+==8776== Invalid read of size 4
+==8776==    at 0x8049014: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8776==    by 0x80491DF: main (in /home/user/Desktop/TP3/prefix.out)
+==8776==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==8776== 
+==8776== 
+==8776== Process terminating with default action of signal 11 (SIGSEGV)
+==8776==  Access not within mapped region at address 0x0
+==8776==    at 0x8049014: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8776==    by 0x80491DF: main (in /home/user/Desktop/TP3/prefix.out)
+==8776==  If you believe this happened as a result of a stack
+==8776==  overflow in your program's main thread (unlikely but
+==8776==  possible), you can try to increase the size of the
+==8776==  main thread stack using the --main-stacksize= flag.
+==8776==  The main thread stack size used in this run was 8388608.
+==8776== 
+==8776== HEAP SUMMARY:
+==8776==     in use at exit: 2,236 bytes in 13 blocks
+==8776==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8776== 
+==8776== LEAK SUMMARY:
+==8776==    definitely lost: 0 bytes in 0 blocks
+==8776==    indirectly lost: 0 bytes in 0 blocks
+==8776==      possibly lost: 144 bytes in 1 blocks
+==8776==    still reachable: 2,092 bytes in 12 blocks
+==8776==         suppressed: 0 bytes in 0 blocks
+==8776== Rerun with --leak-check=full to see details of leaked memory
+==8776== 
+==8776== For counts of detected and suppressed errors, rerun with: -v
+==8776== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+./script: line 2:  8776 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [7@chmod +x [C[C[C[C[C[C[Cvalgrind ./prefix.out > res_prefix.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pvalgrind ./prefix.out > res_prefix.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pchmod +x script [7P./[C[C[C[C[C[C[C
+==8800== Memcheck, a memory error detector
+==8800== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8800== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8800== Command: ./prefix.out
+==8800== 
+==8800== Invalid read of size 4
+==8800==    at 0x804908E: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8800==    by 0x80491D0: main (in /home/user/Desktop/TP3/prefix.out)
+==8800==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==8800== 
+==8800== 
+==8800== Process terminating with default action of signal 11 (SIGSEGV)
+==8800==  Access not within mapped region at address 0x0
+==8800==    at 0x804908E: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==8800==    by 0x80491D0: main (in /home/user/Desktop/TP3/prefix.out)
+==8800==  If you believe this happened as a result of a stack
+==8800==  overflow in your program's main thread (unlikely but
+==8800==  possible), you can try to increase the size of the
+==8800==  main thread stack using the --main-stacksize= flag.
+==8800==  The main thread stack size used in this run was 8388608.
+==8800== 
+==8800== HEAP SUMMARY:
+==8800==     in use at exit: 2,236 bytes in 13 blocks
+==8800==   total heap usage: 17 allocs, 4 frees, 7,868 bytes allocated
+==8800== 
+==8800== LEAK SUMMARY:
+==8800==    definitely lost: 0 bytes in 0 blocks
+==8800==    indirectly lost: 0 bytes in 0 blocks
+==8800==      possibly lost: 144 bytes in 1 blocks
+==8800==    still reachable: 2,092 bytes in 12 blocks
+==8800==         suppressed: 0 bytes in 0 blocks
+==8800== Rerun with --leak-check=full to see details of leaked memory
+==8800== 
+==8800== For counts of detected and suppressed errors, rerun with: -v
+==8800== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+./script: line 2:  8800 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==8842== Memcheck, a memory error detector
+==8842== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8842== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8842== Command: ./prefix.out
+==8842== 
+==8842== 
+==8842== HEAP SUMMARY:
+==8842==     in use at exit: 2,308 bytes in 15 blocks
+==8842==   total heap usage: 19 allocs, 4 frees, 7,940 bytes allocated
+==8842== 
+==8842== LEAK SUMMARY:
+==8842==    definitely lost: 88 bytes in 4 blocks
+==8842==    indirectly lost: 320 bytes in 3 blocks
+==8842==      possibly lost: 144 bytes in 1 blocks
+==8842==    still reachable: 1,756 bytes in 7 blocks
+==8842==         suppressed: 0 bytes in 0 blocks
+==8842== Rerun with --leak-check=full to see details of leaked memory
+==8842== 
+==8842== For counts of detected and suppressed errors, rerun with: -v
+==8842== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [7@chmod +x [C[C[C[C[C[C[C[7P./[C[C[C[C[C[C[C
+==8870== Memcheck, a memory error detector
+==8870== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==8870== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==8870== Command: ./prefix.out
+==8870== 
+==8870== 
+==8870== HEAP SUMMARY:
+==8870==     in use at exit: 2,308 bytes in 15 blocks
+==8870==   total heap usage: 20 allocs, 5 frees, 9,348 bytes allocated
+==8870== 
+==8870== LEAK SUMMARY:
+==8870==    definitely lost: 88 bytes in 4 blocks
+==8870==    indirectly lost: 320 bytes in 3 blocks
+==8870==      possibly lost: 144 bytes in 1 blocks
+==8870==    still reachable: 1,756 bytes in 7 blocks
+==8870==         suppressed: 0 bytes in 0 blocks
+==8870== Rerun with --leak-check=full to see details of leaked memory
+==8870== 
+==8870== For counts of detected and suppressed errors, rerun with: -v
+==8870== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ cat script 
+gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+valgrind ./prefix.out > res_prefix.txt
+subl res_prefix.txt &
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [5P(reverse-i-search)`':[Cg': valgrind ./prefix.out > res_prefix.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc': gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@c[C[C[C]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexovalgrind ./prefix.out > res_prefix.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pchmod +x script [7P./[C[C[C[C[C[C[C[7@chmod +x [C[C[C[C[C[C[Cvalgrind ./prefix.out > res_prefix.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pgcc -Wall -fopenmp exo[4Prm res_prefix.txt gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Prm res_prefix.txt gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+exo3.c: In function ‘max_subarray’:
+exo3.c:225:7: warning: implicit declaration of function ‘max’ [-Wimplicit-function-declaration]
+       max_so_far = max(max_so_far, max_ending_here);
+       ^
+/tmp/ccGOsKoI.o: In function `max_subarray':
+exo3.c:(.text+0x9f9): undefined reference to `max'
+collect2: error: ld returned 1 exit status
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out 
+ max 1: 6  ;;;  max 2: 6  ___ ]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./prefix.out [K
+ max 1: 1  ;;;  max 2: 1  ___  max 1: 1  ;;;  max 2: -2  ___  max 1: 4  ;;;  max 2: 4  ___  max 1: 4  ;;;  max 2: 3  ___  max 1: 5  ;;;  max 2: 5  ___  max 1: 6  ;;;  max 2: 6  ___  max 1: 6  ;;;  max 2: 1  ___  max 1: 6  ;;;  max 2: 6  ___ ]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./prefix.out [K
+ max 1: 1  ;; 1 
+ max 1: 1  ;; -2 
+ max 1: 4  ;; 4 
+ max 1: 4  ;; 3 
+ max 1: 5  ;; 5 
+ max 1: 6  ;; 6 
+ max 1: 6  ;; 1 
+ max 1: 6  ;; 6 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./prefix.out [K
+ max 1: 1  ;; 1 
+ max 1: 1  ;; -2 
+ max 1: 4  ;; 4 
+ max 1: 4  ;; 3 
+ max 1: 5  ;; 5 
+ max 1: 6  ;; 6 
+ max 1: 6  ;; 1 
+ max 1: 6  ;; 6 
+test 2]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./prefix.out [K
+ max 1: 1  ;; 1 
+ max 1: 1  ;; -2 
+ max 1: 4  ;; 4 
+ max 1: 4  ;; 3 
+ max 1: 5  ;; 5 
+ max 1: 6  ;; 6 
+ max 1: 6  ;; 1 
+ max 1: 6  ;; 6 
+test 5]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./prefix.out [K
+ max 1: 1  ;; 1 
+ max 1: 1  ;; -2 
+ max 1: 4  ;; 4 
+ max 1: 4  ;; 3 
+ max 1: 5  ;; 5 
+ max 1: 6  ;; 6 
+ max 1: 6  ;; 1 
+ max 1: 6  ;; 6 
+test 3]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./prefix.out [K
+ max 1: 1  ;; 1 
+ max 1: 1  ;; -2 
+ max 1: 4  ;; 4 
+ max 1: 4  ;; 3 
+ max 1: 5  ;; 5 
+ max 1: 6  ;; 6 
+ max 1: 6  ;; 1 
+ max 1: 6  ;; 6 
+test 7]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./prefix.out gcc -Wall -fopenmp exo3.c -lm -o prefix.out
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc -Wall -fopenmp exo3.c -lm -o prefix.out[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./prefix.out [K
+ max 1: 1  ;; 1 
+ max 1: 1  ;; -2 
+ max 1: 4  ;; 4 
+ max 1: 4  ;; 3 
+ max 1: 5  ;; 5 
+ max 1: 6  ;; 6 
+ max 1: 6  ;; 1 
+ max 1: 6  ;; 6 
+test 3]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ g++ test.cpp 
+The program 'g++' can be found in the following packages:
+ * g++
+ * pentium-builder
+Try: sudo apt-get install <selected package>
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ sudo apt-get install g++
+g++                                   g++-4.8-aarch64-linux-gnu
+g++-4.4                               g++-4.8-arm-linux-gnueabihf
+g++-4.4-multilib                      g++-4.8-multilib
+g++-4.6                               g++-4.8-multilib-arm-linux-gnueabihf
+g++-4.6-multilib                      g++-4.8-multilib-powerpc-linux-gnu
+g++-4.7                               g++-4.8-powerpc-linux-gnu
+g++-4.7-aarch64-linux-gnu             g++-aarch64-linux-gnu
+g++-4.7-arm-linux-gnueabi             g++-arm-linux-gnueabi
+g++-4.7-arm-linux-gnueabihf           g++-arm-linux-gnueabihf
+g++-4.7-multilib                      g++-mingw-w64
+g++-4.7-multilib-arm-linux-gnueabi    g++-mingw-w64-i686
+g++-4.7-multilib-arm-linux-gnueabihf  g++-mingw-w64-x86-64
+g++-4.7-multilib-powerpc-linux-gnu    g++-multilib
+g++-4.7-powerpc-linux-gnu             g++-powerpc-linux-gnu
+g++-4.8                               
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ sudo apt-get install g++
+g++                                   g++-4.8-aarch64-linux-gnu
+g++-4.4                               g++-4.8-arm-linux-gnueabihf
+g++-4.4-multilib                      g++-4.8-multilib
+g++-4.6                               g++-4.8-multilib-arm-linux-gnueabihf
+g++-4.6-multilib                      g++-4.8-multilib-powerpc-linux-gnu
+g++-4.7                               g++-4.8-powerpc-linux-gnu
+g++-4.7-aarch64-linux-gnu             g++-aarch64-linux-gnu
+g++-4.7-arm-linux-gnueabi             g++-arm-linux-gnueabi
+g++-4.7-arm-linux-gnueabihf           g++-arm-linux-gnueabihf
+g++-4.7-multilib                      g++-mingw-w64
+g++-4.7-multilib-arm-linux-gnueabi    g++-mingw-w64-i686
+g++-4.7-multilib-arm-linux-gnueabihf  g++-mingw-w64-x86-64
+g++-4.7-multilib-powerpc-linux-gnu    g++-multilib
+g++-4.7-powerpc-linux-gnu             g++-powerpc-linux-gnu
+g++-4.8                               
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ sudo apt-get install g++
+g++                                   g++-4.8-aarch64-linux-gnu
+g++-4.4                               g++-4.8-arm-linux-gnueabihf
+g++-4.4-multilib                      g++-4.8-multilib
+g++-4.6                               g++-4.8-multilib-arm-linux-gnueabihf
+g++-4.6-multilib                      g++-4.8-multilib-powerpc-linux-gnu
+g++-4.7                               g++-4.8-powerpc-linux-gnu
+g++-4.7-aarch64-linux-gnu             g++-aarch64-linux-gnu
+g++-4.7-arm-linux-gnueabi             g++-arm-linux-gnueabi
+g++-4.7-arm-linux-gnueabihf           g++-arm-linux-gnueabihf
+g++-4.7-multilib                      g++-mingw-w64
+g++-4.7-multilib-arm-linux-gnueabi    g++-mingw-w64-i686
+g++-4.7-multilib-arm-linux-gnueabihf  g++-mingw-w64-x86-64
+g++-4.7-multilib-powerpc-linux-gnu    g++-multilib
+g++-4.7-powerpc-linux-gnu             g++-powerpc-linux-gnu
+g++-4.8                               
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ sudo apt-get install g++
+[sudo] password for user: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 3%Reading state information... Done
+The following extra packages will be installed:
+  cpp-4.8 g++-4.8 gcc-4.8 gcc-4.8-base libasan0 libatomic1 libgcc-4.8-dev
+  libgcc1 libgomp1 libitm1 libquadmath0 libstdc++-4.8-dev libstdc++6
+Suggested packages:
+  gcc-4.8-locales g++-multilib g++-4.8-multilib gcc-4.8-doc libstdc++6-4.8-dbg
+  gcc-4.8-multilib libmudflap0-4.8-dev libgcc1-dbg libgomp1-dbg libitm1-dbg
+  libatomic1-dbg libasan0-dbg libtsan0-dbg libbacktrace1-dbg libquadmath0-dbg
+  libmudflap0-dbg libstdc++-4.8-doc
+The following NEW packages will be installed:
+  g++ g++-4.8 libstdc++-4.8-dev
+The following packages will be upgraded:
+  cpp-4.8 gcc-4.8 gcc-4.8-base libasan0 libatomic1 libgcc-4.8-dev libgcc1
+  libgomp1 libitm1 libquadmath0 libstdc++6
+11 upgraded, 3 newly installed, 0 to remove and 250 not upgraded.
+Need to get 25.9 MB of archives.
+After this operation, 28.2 MB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libquadmath0 i386 4.8.1-10ubuntu9 [218 kB]
+            0% [1 libquadmath0 0 B/218 kB 0%]                                 1% [1 libquadmath0 149 kB/218 kB 68%]                                     1% [Working]            Get:2 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libitm1 i386 4.8.1-10ubuntu9 [36.8 kB]
+            1% [2 libitm1 0 B/36.8 kB 0%]                             1% [Working]            Get:3 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libgomp1 i386 4.8.1-10ubuntu9 [29.0 kB]
+            1% [3 libgomp1 0 B/29.0 kB 0%]                              1% [Working]            Get:4 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main gcc-4.8-base i386 4.8.1-10ubuntu9 [16.7 kB]
+            1% [4 gcc-4.8-base 0 B/16.7 kB 0%]                                  1% [Working]            Get:5 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libstdc++6 i386 4.8.1-10ubuntu9 [335 kB]
+            1% [5 libstdc++6 0 B/335 kB 0%]                               2% [5 libstdc++6 157 kB/335 kB 47%]                                   2% [Working]            Get:6 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libatomic1 i386 4.8.1-10ubuntu9 [9,694 B]
+            2% [6 libatomic1 0 B/9,694 B 0%]                                2% [Working]            Get:7 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libasan0 i386 4.8.1-10ubuntu9 [76.2 kB]
+            2% [7 libasan0 0 B/76.2 kB 0%]                              3% [Working]            Get:8 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main cpp-4.8 i386 4.8.1-10ubuntu9 [5,657 kB]
+            3% [8 cpp-4.8 0 B/5,657 kB 0%]                              4% [8 cpp-4.8 192 kB/5,657 kB 3%]4% [8 cpp-4.8 319 kB/5,657 kB 6%]5% [8 cpp-4.8 473 kB/5,657 kB 8%]                                 5% [8 cpp-4.8 655 kB/5,657 kB 12%]6% [8 cpp-4.8 708 kB/5,657 kB 13%]                                  6% [8 cpp-4.8 889 kB/5,657 kB 16%]                            255 kB/s 1min 35s7% [8 cpp-4.8 1,013 kB/5,657 kB 18%]                          255 kB/s 1min 34s7% [8 cpp-4.8 1,168 kB/5,657 kB 21%]                          255 kB/s 1min 34s8% [8 cpp-4.8 1,322 kB/5,657 kB 23%]                          255 kB/s 1min 33s8% [8 cpp-4.8 1,480 kB/5,657 kB 26%]                          255 kB/s 1min 33s9% [8 cpp-4.8 1,641 kB/5,657 kB 29%]                          255 kB/s 1min 32s10% [8 cpp-4.8 1,784 kB/5,657 kB 32%]                         255 kB/s 1min 31s10% [8 cpp-4.8 1,956 kB/5,657 kB 35%]                         255 kB/s 1min 31s11% [8 cpp-4.8 2,090 kB/5,657 kB 37%]                         255 kB/s 1min 30s11% [8 cpp-4.8 2,239 kB/5,657 kB 40%]                         255 kB/s 1min 30s12% [8 cpp-4.8 2,388 kB/5,657 kB 42%]                         255 kB/s 1min 29s12% [8 cpp-4.8 2,471 kB/5,657 kB 44%]                         255 kB/s 1min 29s13% [8 cpp-4.8 2,615 kB/5,657 kB 46%]                         287 kB/s 1min 18s13% [8 cpp-4.8 2,661 kB/5,657 kB 47%]                         287 kB/s 1min 18s13% [8 cpp-4.8 2,750 kB/5,657 kB 49%]                         287 kB/s 1min 18s14% [8 cpp-4.8 2,850 kB/5,657 kB 50%]                         287 kB/s 1min 17s14% [8 cpp-4.8 2,928 kB/5,657 kB 52%]                         287 kB/s 1min 17s14% [8 cpp-4.8 3,010 kB/5,657 kB 53%]                         287 kB/s 1min 17s15% [8 cpp-4.8 3,105 kB/5,657 kB 55%]                         287 kB/s 1min 17s15% [8 cpp-4.8 3,209 kB/5,657 kB 57%]                         287 kB/s 1min 16s16% [8 cpp-4.8 3,296 kB/5,657 kB 58%]                         287 kB/s 1min 16s16% [8 cpp-4.8 3,393 kB/5,657 kB 60%]                         287 kB/s 1min 16s16% [8 cpp-4.8 3,463 kB/5,657 kB 61%]                         287 kB/s 1min 15s16% [8 cpp-4.8 3,547 kB/5,657 kB 63%]                         287 kB/s 1min 15s17% [8 cpp-4.8 3,658 kB/5,657 kB 65%]                          174 kB/s 2min 4s17% [8 cpp-4.8 3,802 kB/5,657 kB 67%]                          174 kB/s 2min 3s18% [8 cpp-4.8 3,924 kB/5,657 kB 69%]                          174 kB/s 2min 2s18% [8 cpp-4.8 4,050 kB/5,657 kB 72%]                          174 kB/s 2min 1s19% [8 cpp-4.8 4,164 kB/5,657 kB 74%]                          174 kB/s 2min 1s19% [8 cpp-4.8 4,280 kB/5,657 kB 76%]                          174 kB/s 2min 0s20% [8 cpp-4.8 4,386 kB/5,657 kB 78%]                         174 kB/s 1min 59s20% [8 cpp-4.8 4,491 kB/5,657 kB 79%]                         174 kB/s 1min 59s21% [8 cpp-4.8 4,599 kB/5,657 kB 81%]                         174 kB/s 1min 58s21% [8 cpp-4.8 4,715 kB/5,657 kB 83%]                         174 kB/s 1min 57s22% [8 cpp-4.8 4,860 kB/5,657 kB 86%]                         174 kB/s 1min 57s22% [8 cpp-4.8 4,990 kB/5,657 kB 88%]                         174 kB/s 1min 56s22% [8 cpp-4.8 5,107 kB/5,657 kB 90%]                         240 kB/s 1min 23s23% [8 cpp-4.8 5,253 kB/5,657 kB 93%]                         240 kB/s 1min 23s24% [8 cpp-4.8 5,393 kB/5,657 kB 95%]                         240 kB/s 1min 22s24% [8 cpp-4.8 5,548 kB/5,657 kB 98%]                         240 kB/s 1min 21s25% [Working]                                                 240 kB/s 1min 21s                                                                               Get:9 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main gcc-4.8 i386 4.8.1-10ubuntu9 [6,450 kB]
+25% [9 gcc-4.8 0 B/6,450 kB 0%]                               240 kB/s 1min 21s25% [9 gcc-4.8 152 kB/6,450 kB 2%]                            240 kB/s 1min 20s26% [9 gcc-4.8 279 kB/6,450 kB 4%]                            240 kB/s 1min 20s26% [9 gcc-4.8 390 kB/6,450 kB 6%]                            240 kB/s 1min 19s27% [9 gcc-4.8 521 kB/6,450 kB 8%]                            240 kB/s 1min 19s27% [9 gcc-4.8 638 kB/6,450 kB 10%]                           240 kB/s 1min 18s28% [9 gcc-4.8 795 kB/6,450 kB 12%]                           240 kB/s 1min 18s28% [9 gcc-4.8 915 kB/6,450 kB 14%]                           240 kB/s 1min 17s29% [9 gcc-4.8 1,044 kB/6,450 kB 16%]                          264 kB/s 1min 9s29% [9 gcc-4.8 1,181 kB/6,450 kB 18%]                          264 kB/s 1min 9s30% [9 gcc-4.8 1,341 kB/6,450 kB 21%]                          264 kB/s 1min 8s30% [9 gcc-4.8 1,506 kB/6,450 kB 23%]                          264 kB/s 1min 8s31% [9 gcc-4.8 1,666 kB/6,450 kB 26%]                          264 kB/s 1min 7s32% [9 gcc-4.8 1,823 kB/6,450 kB 28%]                          264 kB/s 1min 6s32% [9 gcc-4.8 1,987 kB/6,450 kB 31%]                          264 kB/s 1min 6s33% [9 gcc-4.8 2,153 kB/6,450 kB 33%]                          264 kB/s 1min 5s34% [9 gcc-4.8 2,325 kB/6,450 kB 36%]                          264 kB/s 1min 5s34% [9 gcc-4.8 2,501 kB/6,450 kB 39%]                          264 kB/s 1min 4s35% [9 gcc-4.8 2,702 kB/6,450 kB 42%]                          264 kB/s 1min 3s36% [9 gcc-4.8 2,912 kB/6,450 kB 45%]                          264 kB/s 1min 2s37% [9 gcc-4.8 3,092 kB/6,450 kB 48%]                              341 kB/s 48s37% [9 gcc-4.8 3,254 kB/6,450 kB 50%]                              341 kB/s 47s38% [9 gcc-4.8 3,447 kB/6,450 kB 53%]                              341 kB/s 47s39% [9 gcc-4.8 3,693 kB/6,450 kB 57%]                              341 kB/s 46s40% [9 gcc-4.8 3,950 kB/6,450 kB 61%]                              341 kB/s 45s41% [9 gcc-4.8 4,150 kB/6,450 kB 64%]                              341 kB/s 45s41% [9 gcc-4.8 4,358 kB/6,450 kB 68%]                              341 kB/s 44s42% [9 gcc-4.8 4,591 kB/6,450 kB 71%]                              341 kB/s 43s43% [9 gcc-4.8 4,845 kB/6,450 kB 75%]                              341 kB/s 43s44% [9 gcc-4.8 5,126 kB/6,450 kB 79%]                              341 kB/s 42s45% [9 gcc-4.8 5,394 kB/6,450 kB 84%]                              341 kB/s 41s46% [9 gcc-4.8 5,669 kB/6,450 kB 88%]                              341 kB/s 40s48% [9 gcc-4.8 5,932 kB/6,450 kB 92%]                              472 kB/s 28s48% [9 gcc-4.8 5,965 kB/6,450 kB 92%]                              472 kB/s 28s48% [9 gcc-4.8 6,043 kB/6,450 kB 94%]                              472 kB/s 28s48% [9 gcc-4.8 6,092 kB/6,450 kB 94%]                              472 kB/s 28s49% [9 gcc-4.8 6,206 kB/6,450 kB 96%]                              472 kB/s 28s49% [9 gcc-4.8 6,393 kB/6,450 kB 99%]                              472 kB/s 27s50% [Working]                                                      472 kB/s 27s                                                                               Get:10 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libgcc-4.8-dev i386 4.8.1-10ubuntu9 [2,795 kB]
+50% [10 libgcc-4.8-dev 0 B/2,795 kB 0%]                            472 kB/s 27s50% [10 libgcc-4.8-dev 222 kB/2,795 kB 8%]                         472 kB/s 27s51% [10 libgcc-4.8-dev 432 kB/2,795 kB 15%]                        472 kB/s 26s52% [10 libgcc-4.8-dev 642 kB/2,795 kB 23%]                        472 kB/s 26s53% [10 libgcc-4.8-dev 822 kB/2,795 kB 29%]                        472 kB/s 25s53% [10 libgcc-4.8-dev 984 kB/2,795 kB 35%]                        472 kB/s 25s54% [10 libgcc-4.8-dev 1,138 kB/2,795 kB 41%]                      472 kB/s 25s54% [10 libgcc-4.8-dev 1,264 kB/2,795 kB 45%]                      282 kB/s 41s55% [10 libgcc-4.8-dev 1,379 kB/2,795 kB 49%]                      282 kB/s 41s55% [10 libgcc-4.8-dev 1,521 kB/2,795 kB 54%]                      282 kB/s 41s56% [10 libgcc-4.8-dev 1,687 kB/2,795 kB 60%]                      282 kB/s 40s57% [10 libgcc-4.8-dev 1,847 kB/2,795 kB 66%]                      282 kB/s 39s57% [10 libgcc-4.8-dev 1,979 kB/2,795 kB 71%]                      282 kB/s 39s58% [10 libgcc-4.8-dev 2,143 kB/2,795 kB 77%]                      282 kB/s 38s58% [10 libgcc-4.8-dev 2,306 kB/2,795 kB 83%]                      282 kB/s 38s59% [10 libgcc-4.8-dev 2,482 kB/2,795 kB 89%]                      282 kB/s 37s60% [10 libgcc-4.8-dev 2,660 kB/2,795 kB 95%]                      282 kB/s 37s60% [Working]                                                      282 kB/s 36s                                                                               Get:11 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libgcc1 i386 1:4.8.1-10ubuntu9 [53.7 kB]
+60% [11 libgcc1 0 B/53.7 kB 0%]                                    282 kB/s 36s61% [Working]                                                      282 kB/s 36s                                                                               Get:12 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main libstdc++-4.8-dev i386 4.8.1-10ubuntu9 [1,746 kB]
+61% [12 libstdc++-4.8-dev 0 B/1,746 kB 0%]                         282 kB/s 36s61% [12 libstdc++-4.8-dev 217 kB/1,746 kB 12%]                     282 kB/s 35s62% [12 libstdc++-4.8-dev 445 kB/1,746 kB 25%]                     325 kB/s 30s63% [12 libstdc++-4.8-dev 753 kB/1,746 kB 43%]                     325 kB/s 29s65% [12 libstdc++-4.8-dev 1,087 kB/1,746 kB 62%]                   325 kB/s 28s65% [12 libstdc++-4.8-dev 1,254 kB/1,746 kB 72%]                   325 kB/s 27s65% [12 libstdc++-4.8-dev 1,258 kB/1,746 kB 72%]                   325 kB/s 27s67% [12 libstdc++-4.8-dev 1,671 kB/1,746 kB 96%]                   325 kB/s 26s67% [Working]                                                      325 kB/s 26s                                                                               Get:13 http://us.archive.ubuntu.com/ubuntu/ saucy-updates/main g++-4.8 i386 4.8.1-10ubuntu9 [8,486 kB]
+67% [13 g++-4.8 0 B/8,486 kB 0%]                                   325 kB/s 26s68% [13 g++-4.8 81.5 kB/8,486 kB 1%]                               325 kB/s 25s68% [13 g++-4.8 82.9 kB/8,486 kB 1%]                               325 kB/s 25s69% [13 g++-4.8 506 kB/8,486 kB 6%]                                325 kB/s 24s70% [13 g++-4.8 733 kB/8,486 kB 9%]                                325 kB/s 23s71% [13 g++-4.8 975 kB/8,486 kB 11%]                               325 kB/s 23s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             325 kB/s 22s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,193 kB/8,486 kB 14%]                             394 kB/s 18s72% [13 g++-4.8 1,266 kB/8,486 kB 15%]                             394 kB/s 18s73% [13 g++-4.8 1,384 kB/8,486 kB 16%]                             394 kB/s 18s73% [13 g++-4.8 1,565 kB/8,486 kB 18%]                             394 kB/s 17s74% [13 g++-4.8 1,772 kB/8,486 kB 21%]                             394 kB/s 17s75% [13 g++-4.8 1,909 kB/8,486 kB 22%]                             119 kB/s 55s75% [13 g++-4.8 2,044 kB/8,486 kB 24%]                             119 kB/s 54s76% [13 g++-4.8 2,308 kB/8,486 kB 27%]                             119 kB/s 51s77% [13 g++-4.8 2,584 kB/8,486 kB 30%]                             119 kB/s 49s78% [13 g++-4.8 2,873 kB/8,486 kB 34%]                             119 kB/s 47s79% [13 g++-4.8 3,165 kB/8,486 kB 37%]                             119 kB/s 44s80% [13 g++-4.8 3,413 kB/8,486 kB 40%]                             119 kB/s 42s81% [13 g++-4.8 3,596 kB/8,486 kB 42%]                             119 kB/s 41s81% [13 g++-4.8 3,692 kB/8,486 kB 44%]                             119 kB/s 40s83% [13 g++-4.8 3,971 kB/8,486 kB 47%]                             119 kB/s 37s84% [13 g++-4.8 4,225 kB/8,486 kB 50%]                             119 kB/s 35s84% [13 g++-4.8 4,426 kB/8,486 kB 52%]                             119 kB/s 34s85% [13 g++-4.8 4,637 kB/8,486 kB 55%]                              453 kB/s 8s85% [13 g++-4.8 4,697 kB/8,486 kB 55%]                              453 kB/s 8s85% [13 g++-4.8 4,697 kB/8,486 kB 55%]                              453 kB/s 8s86% [13 g++-4.8 4,958 kB/8,486 kB 58%]                              453 kB/s 7s87% [13 g++-4.8 5,072 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,072 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,072 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,072 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,072 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,072 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,072 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,073 kB/8,486 kB 60%]                              453 kB/s 7s87% [13 g++-4.8 5,215 kB/8,486 kB 61%]                            95.8 kB/s 34s88% [13 g++-4.8 5,372 kB/8,486 kB 63%]                            95.8 kB/s 32s89% [13 g++-4.8 5,510 kB/8,486 kB 65%]                            95.8 kB/s 31s89% [13 g++-4.8 5,685 kB/8,486 kB 67%]                            95.8 kB/s 29s90% [13 g++-4.8 5,878 kB/8,486 kB 69%]                            95.8 kB/s 27s91% [13 g++-4.8 6,027 kB/8,486 kB 71%]                            95.8 kB/s 25s91% [13 g++-4.8 6,180 kB/8,486 kB 73%]                            95.8 kB/s 24s92% [13 g++-4.8 6,305 kB/8,486 kB 74%]                            95.8 kB/s 22s92% [13 g++-4.8 6,399 kB/8,486 kB 75%]                            95.8 kB/s 21s93% [13 g++-4.8 6,606 kB/8,486 kB 78%]                            95.8 kB/s 19s93% [13 g++-4.8 6,768 kB/8,486 kB 80%]                            95.8 kB/s 17s94% [13 g++-4.8 6,943 kB/8,486 kB 82%]                            95.8 kB/s 16s95% [13 g++-4.8 7,113 kB/8,486 kB 84%]                              313 kB/s 4s95% [13 g++-4.8 7,224 kB/8,486 kB 85%]                              313 kB/s 4s96% [13 g++-4.8 7,335 kB/8,486 kB 86%]                              313 kB/s 3s96% [13 g++-4.8 7,446 kB/8,486 kB 88%]                              313 kB/s 3s96% [13 g++-4.8 7,516 kB/8,486 kB 89%]                              313 kB/s 3s96% [13 g++-4.8 7,516 kB/8,486 kB 89%]                              313 kB/s 3s96% [13 g++-4.8 7,522 kB/8,486 kB 89%]                              313 kB/s 3s97% [13 g++-4.8 7,606 kB/8,486 kB 90%]                              313 kB/s 2s97% [13 g++-4.8 7,717 kB/8,486 kB 91%]                              313 kB/s 2s98% [13 g++-4.8 7,891 kB/8,486 kB 93%]                              313 kB/s 1s98% [13 g++-4.8 8,091 kB/8,486 kB 95%]                              313 kB/s 1s99% [13 g++-4.8 8,260 kB/8,486 kB 97%]                              313 kB/s 0s100% [13 g++-4.8 8,409 kB/8,486 kB 99%]                             215 kB/s 0s100% [Working]                                                      215 kB/s 0s                                                                               Get:14 http://us.archive.ubuntu.com/ubuntu/ saucy/main g++ i386 4:4.8.1-2ubuntu3 [1,448 B]
+100% [14 g++ 0 B/1,448 B 0%]                                        215 kB/s 0s100% [Working]                                                      215 kB/s 0s                                                                               Fetched 25.9 MB in 1min 31s (282 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 143494 files and directories currently installed.)
+Preparing to replace libquadmath0:i386 4.8.1-10ubuntu8 (using .../libquadmath0_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libquadmath0:i386 ...
+Preparing to replace libitm1:i386 4.8.1-10ubuntu8 (using .../libitm1_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libitm1:i386 ...
+Preparing to replace libgomp1:i386 4.8.1-10ubuntu8 (using .../libgomp1_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libgomp1:i386 ...
+Preparing to replace gcc-4.8-base:i386 4.8.1-10ubuntu8 (using .../gcc-4.8-base_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement gcc-4.8-base:i386 ...
+Setting up gcc-4.8-base:i386 (4.8.1-10ubuntu9) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 143494 files and directories currently installed.)
+Preparing to replace libstdc++6:i386 4.8.1-10ubuntu8 (using .../libstdc++6_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libstdc++6:i386 ...
+Preparing to replace libgcc1:i386 1:4.8.1-10ubuntu8 (using .../libgcc1_1%3a4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libgcc1:i386 ...
+Setting up libgcc1:i386 (1:4.8.1-10ubuntu9) ...
+Setting up libstdc++6:i386 (4.8.1-10ubuntu9) ...
+Processing triggers for libc-bin ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 143494 files and directories currently installed.)
+Preparing to replace libatomic1:i386 4.8.1-10ubuntu8 (using .../libatomic1_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libatomic1:i386 ...
+Preparing to replace libasan0:i386 4.8.1-10ubuntu8 (using .../libasan0_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libasan0:i386 ...
+Preparing to replace cpp-4.8 4.8.1-10ubuntu8 (using .../cpp-4.8_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement cpp-4.8 ...
+Preparing to replace gcc-4.8 4.8.1-10ubuntu8 (using .../gcc-4.8_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement gcc-4.8 ...
+Preparing to replace libgcc-4.8-dev:i386 4.8.1-10ubuntu8 (using .../libgcc-4.8-dev_4.8.1-10ubuntu9_i386.deb) ...
+Unpacking replacement libgcc-4.8-dev:i386 ...
+Selecting previously unselected package libstdc++-4.8-dev:i386.
+Unpacking libstdc++-4.8-dev:i386 (from .../libstdc++-4.8-dev_4.8.1-10ubuntu9_i386.deb) ...
+Selecting previously unselected package g++-4.8.
+Unpacking g++-4.8 (from .../g++-4.8_4.8.1-10ubuntu9_i386.deb) ...
+Selecting previously unselected package g++.
+Unpacking g++ (from .../g++_4%3a4.8.1-2ubuntu3_i386.deb) ...
+Processing triggers for man-db ...
+Setting up libquadmath0:i386 (4.8.1-10ubuntu9) ...
+Setting up libitm1:i386 (4.8.1-10ubuntu9) ...
+Setting up libgomp1:i386 (4.8.1-10ubuntu9) ...
+Setting up libatomic1:i386 (4.8.1-10ubuntu9) ...
+Setting up libasan0:i386 (4.8.1-10ubuntu9) ...
+Setting up cpp-4.8 (4.8.1-10ubuntu9) ...
+Setting up libgcc-4.8-dev:i386 (4.8.1-10ubuntu9) ...
+Setting up gcc-4.8 (4.8.1-10ubuntu9) ...
+Setting up libstdc++-4.8-dev:i386 (4.8.1-10ubuntu9) ...
+Setting up g++-4.8 (4.8.1-10ubuntu9) ...
+Setting up g++ (4:4.8.1-2ubuntu3) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Processing triggers for libc-bin ...
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ g++
+g++      g++-4.8  
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ g++
+g++      g++-4.8  
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ g++[K[K[K[H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10025== Memcheck, a memory error detector
+==10025== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10025== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10025== Command: ./prefix.out
+==10025== 
+==10025== 
+==10025== HEAP SUMMARY:
+==10025==     in use at exit: 44 bytes in 2 blocks
+==10025==   total heap usage: 2 allocs, 0 frees, 44 bytes allocated
+==10025== 
+==10025== LEAK SUMMARY:
+==10025==    definitely lost: 8 bytes in 1 blocks
+==10025==    indirectly lost: 36 bytes in 1 blocks
+==10025==      possibly lost: 0 bytes in 0 blocks
+==10025==    still reachable: 0 bytes in 0 blocks
+==10025==         suppressed: 0 bytes in 0 blocks
+==10025== Rerun with --leak-check=full to see details of leaked memory
+==10025== 
+==10025== For counts of detected and suppressed errors, rerun with: -v
+==10025== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script sudo apt-get install g++[15P./script 
+==10050== Memcheck, a memory error detector
+==10050== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10050== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10050== Command: ./prefix.out
+==10050== 
+==10050== 
+==10050== HEAP SUMMARY:
+==10050==     in use at exit: 2,308 bytes in 15 blocks
+==10050==   total heap usage: 20 allocs, 5 frees, 9,348 bytes allocated
+==10050== 
+==10050== LEAK SUMMARY:
+==10050==    definitely lost: 88 bytes in 4 blocks
+==10050==    indirectly lost: 320 bytes in 3 blocks
+==10050==      possibly lost: 144 bytes in 1 blocks
+==10050==    still reachable: 1,756 bytes in 7 blocks
+==10050==         suppressed: 0 bytes in 0 blocks
+==10050== Rerun with --leak-check=full to see details of leaked memory
+==10050== 
+==10050== For counts of detected and suppressed errors, rerun with: -v
+==10050== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script sudo apt-get install g++[15P./script 
+==10083== Memcheck, a memory error detector
+==10083== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10083== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10083== Command: ./prefix.out
+==10083== 
+==10083== 
+==10083== HEAP SUMMARY:
+==10083==     in use at exit: 2,308 bytes in 15 blocks
+==10083==   total heap usage: 20 allocs, 5 frees, 9,348 bytes allocated
+==10083== 
+==10083== LEAK SUMMARY:
+==10083==    definitely lost: 88 bytes in 4 blocks
+==10083==    indirectly lost: 320 bytes in 3 blocks
+==10083==      possibly lost: 144 bytes in 1 blocks
+==10083==    still reachable: 1,756 bytes in 7 blocks
+==10083==         suppressed: 0 bytes in 0 blocks
+==10083== Rerun with --leak-check=full to see details of leaked memory
+==10083== 
+==10083== For counts of detected and suppressed errors, rerun with: -v
+==10083== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10112== Memcheck, a memory error detector
+==10112== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10112== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10112== Command: ./prefix.out
+==10112== 
+==10112== 
+==10112== HEAP SUMMARY:
+==10112==     in use at exit: 2,308 bytes in 15 blocks
+==10112==   total heap usage: 20 allocs, 5 frees, 9,348 bytes allocated
+==10112== 
+==10112== LEAK SUMMARY:
+==10112==    definitely lost: 88 bytes in 4 blocks
+==10112==    indirectly lost: 320 bytes in 3 blocks
+==10112==      possibly lost: 144 bytes in 1 blocks
+==10112==    still reachable: 1,756 bytes in 7 blocks
+==10112==         suppressed: 0 bytes in 0 blocks
+==10112== Rerun with --leak-check=full to see details of leaked memory
+==10112== 
+==10112== For counts of detected and suppressed errors, rerun with: -v
+==10112== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script sudo apt-get install g++[15P./script 
+==10142== Memcheck, a memory error detector
+==10142== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10142== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10142== Command: ./prefix.out
+==10142== 
+==10142== 
+==10142== HEAP SUMMARY:
+==10142==     in use at exit: 2,308 bytes in 15 blocks
+==10142==   total heap usage: 20 allocs, 5 frees, 9,348 bytes allocated
+==10142== 
+==10142== LEAK SUMMARY:
+==10142==    definitely lost: 88 bytes in 4 blocks
+==10142==    indirectly lost: 320 bytes in 3 blocks
+==10142==      possibly lost: 144 bytes in 1 blocks
+==10142==    still reachable: 1,756 bytes in 7 blocks
+==10142==         suppressed: 0 bytes in 0 blocks
+==10142== Rerun with --leak-check=full to see details of leaked memory
+==10142== 
+==10142== For counts of detected and suppressed errors, rerun with: -v
+==10142== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10167== Memcheck, a memory error detector
+==10167== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10167== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10167== Command: ./prefix.out
+==10167== 
+==10167== 
+==10167== HEAP SUMMARY:
+==10167==     in use at exit: 2,308 bytes in 15 blocks
+==10167==   total heap usage: 20 allocs, 5 frees, 9,348 bytes allocated
+==10167== 
+==10167== LEAK SUMMARY:
+==10167==    definitely lost: 88 bytes in 4 blocks
+==10167==    indirectly lost: 320 bytes in 3 blocks
+==10167==      possibly lost: 144 bytes in 1 blocks
+==10167==    still reachable: 1,756 bytes in 7 blocks
+==10167==         suppressed: 0 bytes in 0 blocks
+==10167== Rerun with --leak-check=full to see details of leaked memory
+==10167== 
+==10167== For counts of detected and suppressed errors, rerun with: -v
+==10167== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script sudo apt-get install g++[15P./script 
+==10226== Memcheck, a memory error detector
+==10226== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10226== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10226== Command: ./prefix.out
+==10226== 
+==10226== 
+==10226== HEAP SUMMARY:
+==10226==     in use at exit: 2,308 bytes in 15 blocks
+==10226==   total heap usage: 20 allocs, 5 frees, 9,348 bytes allocated
+==10226== 
+==10226== LEAK SUMMARY:
+==10226==    definitely lost: 88 bytes in 4 blocks
+==10226==    indirectly lost: 320 bytes in 3 blocks
+==10226==      possibly lost: 144 bytes in 1 blocks
+==10226==    still reachable: 1,756 bytes in 7 blocks
+==10226==         suppressed: 0 bytes in 0 blocks
+==10226== Rerun with --leak-check=full to see details of leaked memory
+==10226== 
+==10226== For counts of detected and suppressed errors, rerun with: -v
+==10226== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script sudo apt-get install g++[15P./script 
+==10259== Memcheck, a memory error detector
+==10259== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10259== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10259== Command: ./prefix.out
+==10259== 
+==10259== 
+==10259== HEAP SUMMARY:
+==10259==     in use at exit: 2,380 bytes in 17 blocks
+==10259==   total heap usage: 23 allocs, 6 frees, 10,828 bytes allocated
+==10259== 
+==10259== LEAK SUMMARY:
+==10259==    definitely lost: 96 bytes in 5 blocks
+==10259==    indirectly lost: 384 bytes in 4 blocks
+==10259==      possibly lost: 144 bytes in 1 blocks
+==10259==    still reachable: 1,756 bytes in 7 blocks
+==10259==         suppressed: 0 bytes in 0 blocks
+==10259== Rerun with --leak-check=full to see details of leaked memory
+==10259== 
+==10259== For counts of detected and suppressed errors, rerun with: -v
+==10259== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script sudo apt-get install g++[15P./script 
+exo3.c: In function ‘main’:
+exo3.c:241:22: error: ‘c’ undeclared (first use in this function)
+   SSUM->tab = malloc(c->size*sizeof(int));
+                      ^
+exo3.c:241:22: note: each undeclared identifier is reported only once for each function it appears in
+exo3.c:264:3: warning: implicit declaration of function ‘prefixe’ [-Wimplicit-function-declaration]
+   prefixe(SSUM,PMAX,'m');
+   ^
+==10297== Memcheck, a memory error detector
+==10297== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10297== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10297== Command: ./prefix.out
+==10297== 
+==10297== 
+==10297== HEAP SUMMARY:
+==10297==     in use at exit: 2,380 bytes in 17 blocks
+==10297==   total heap usage: 23 allocs, 6 frees, 10,828 bytes allocated
+==10297== 
+==10297== LEAK SUMMARY:
+==10297==    definitely lost: 96 bytes in 5 blocks
+==10297==    indirectly lost: 384 bytes in 4 blocks
+==10297==      possibly lost: 144 bytes in 1 blocks
+==10297==    still reachable: 1,756 bytes in 7 blocks
+==10297==         suppressed: 0 bytes in 0 blocks
+==10297== Rerun with --leak-check=full to see details of leaked memory
+==10297== 
+==10297== For counts of detected and suppressed errors, rerun with: -v
+==10297== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script sudo apt-get install g++[15P./script 
+exo3.c: In function ‘main’:
+exo3.c:241:22: error: ‘c’ undeclared (first use in this function)
+   SSUM->tab = malloc(c->size*sizeof(int));
+                      ^
+exo3.c:241:22: note: each undeclared identifier is reported only once for each function it appears in
+exo3.c:264:3: warning: implicit declaration of function ‘prefixe’ [-Wimplicit-function-declaration]
+   prefixe(SSUM,PMAX,'m');
+   ^
+==10317== Memcheck, a memory error detector
+==10317== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10317== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10317== Command: ./prefix.out
+==10317== 
+==10317== 
+==10317== HEAP SUMMARY:
+==10317==     in use at exit: 2,380 bytes in 17 blocks
+==10317==   total heap usage: 23 allocs, 6 frees, 10,828 bytes allocated
+==10317== 
+==10317== LEAK SUMMARY:
+==10317==    definitely lost: 96 bytes in 5 blocks
+==10317==    indirectly lost: 384 bytes in 4 blocks
+==10317==      possibly lost: 144 bytes in 1 blocks
+==10317==    still reachable: 1,756 bytes in 7 blocks
+==10317==         suppressed: 0 bytes in 0 blocks
+==10317== Rerun with --leak-check=full to see details of leaked memory
+==10317== 
+==10317== For counts of detected and suppressed errors, rerun with: -v
+==10317== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+exo3.c: In function ‘main’:
+exo3.c:241:22: error: ‘c’ undeclared (first use in this function)
+   SSUM->tab = malloc(c->size*sizeof(int));
+                      ^
+exo3.c:241:22: note: each undeclared identifier is reported only once for each function it appears in
+exo3.c:264:3: error: incompatible type for argument 1 of ‘prefix’
+   prefix(SSUM,PMAX,'m');
+   ^
+exo3.c:166:6: note: expected ‘struct tablo’ but argument is of type ‘struct tablo *’
+ void prefix(struct tablo source,struct tablo * a, struct tablo *b, char oper){
+      ^
+exo3.c:264:3: warning: passing argument 3 of ‘prefix’ makes pointer from integer without a cast [enabled by default]
+   prefix(SSUM,PMAX,'m');
+   ^
+exo3.c:166:6: note: expected ‘struct tablo *’ but argument is of type ‘int’
+ void prefix(struct tablo source,struct tablo * a, struct tablo *b, char oper){
+      ^
+exo3.c:264:3: error: too few arguments to function ‘prefix’
+   prefix(SSUM,PMAX,'m');
+   ^
+exo3.c:166:6: note: declared here
+ void prefix(struct tablo source,struct tablo * a, struct tablo *b, char oper){
+      ^
+==10334== Memcheck, a memory error detector
+==10334== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10334== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10334== Command: ./prefix.out
+==10334== 
+==10334== 
+==10334== HEAP SUMMARY:
+==10334==     in use at exit: 2,380 bytes in 17 blocks
+==10334==   total heap usage: 23 allocs, 6 frees, 10,828 bytes allocated
+==10334== 
+==10334== LEAK SUMMARY:
+==10334==    definitely lost: 96 bytes in 5 blocks
+==10334==    indirectly lost: 384 bytes in 4 blocks
+==10334==      possibly lost: 144 bytes in 1 blocks
+==10334==    still reachable: 1,756 bytes in 7 blocks
+==10334==         suppressed: 0 bytes in 0 blocks
+==10334== Rerun with --leak-check=full to see details of leaked memory
+==10334== 
+==10334== For counts of detected and suppressed errors, rerun with: -v
+==10334== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+exo3.c: In function ‘main’:
+exo3.c:241:28: error: invalid type argument of ‘->’ (have ‘struct tablo’)
+   SSUM->tab = malloc(source->size*sizeof(int));
+                            ^
+exo3.c:242:22: error: invalid type argument of ‘->’ (have ‘struct tablo’)
+   SSUM->size = source->size;
+                      ^
+exo3.c:264:3: error: incompatible type for argument 1 of ‘prefix’
+   prefix(SSUM,PMAX,'m');
+   ^
+exo3.c:166:6: note: expected ‘struct tablo’ but argument is of type ‘struct tablo *’
+ void prefix(struct tablo source,struct tablo * a, struct tablo *b, char oper){
+      ^
+exo3.c:264:3: warning: passing argument 3 of ‘prefix’ makes pointer from integer without a cast [enabled by default]
+   prefix(SSUM,PMAX,'m');
+   ^
+exo3.c:166:6: note: expected ‘struct tablo *’ but argument is of type ‘int’
+ void prefix(struct tablo source,struct tablo * a, struct tablo *b, char oper){
+      ^
+exo3.c:264:3: error: too few arguments to function ‘prefix’
+   prefix(SSUM,PMAX,'m');
+   ^
+exo3.c:166:6: note: declared here
+ void prefix(struct tablo source,struct tablo * a, struct tablo *b, char oper){
+      ^
+==10358== Memcheck, a memory error detector
+==10358== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10358== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10358== Command: ./prefix.out
+==10358== 
+==10358== 
+==10358== HEAP SUMMARY:
+==10358==     in use at exit: 2,380 bytes in 17 blocks
+==10358==   total heap usage: 23 allocs, 6 frees, 10,828 bytes allocated
+==10358== 
+==10358== LEAK SUMMARY:
+==10358==    definitely lost: 96 bytes in 5 blocks
+==10358==    indirectly lost: 384 bytes in 4 blocks
+==10358==      possibly lost: 144 bytes in 1 blocks
+==10358==    still reachable: 1,756 bytes in 7 blocks
+==10358==         suppressed: 0 bytes in 0 blocks
+==10358== Rerun with --leak-check=full to see details of leaked memory
+==10358== 
+==10358== For counts of detected and suppressed errors, rerun with: -v
+==10358== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+exo3.c: In function ‘main’:
+exo3.c:241:28: error: invalid type argument of ‘->’ (have ‘struct tablo’)
+   SSUM->tab = malloc(source->size*sizeof(int));
+                            ^
+exo3.c:242:22: error: invalid type argument of ‘->’ (have ‘struct tablo’)
+   SSUM->size = source->size;
+                      ^
+==10375== Memcheck, a memory error detector
+==10375== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10375== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10375== Command: ./prefix.out
+==10375== 
+==10375== 
+==10375== HEAP SUMMARY:
+==10375==     in use at exit: 2,380 bytes in 17 blocks
+==10375==   total heap usage: 23 allocs, 6 frees, 10,828 bytes allocated
+==10375== 
+==10375== LEAK SUMMARY:
+==10375==    definitely lost: 96 bytes in 5 blocks
+==10375==    indirectly lost: 384 bytes in 4 blocks
+==10375==      possibly lost: 144 bytes in 1 blocks
+==10375==    still reachable: 1,756 bytes in 7 blocks
+==10375==         suppressed: 0 bytes in 0 blocks
+==10375== Rerun with --leak-check=full to see details of leaked memory
+==10375== 
+==10375== For counts of detected and suppressed errors, rerun with: -v
+==10375== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10398== Memcheck, a memory error detector
+==10398== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10398== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10398== Command: ./prefix.out
+==10398== 
+==10398== Invalid write of size 4
+==10398==    at 0x80488A7: montee (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10398==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10398==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10398==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10398== 
+==10398== Invalid read of size 4
+==10398==    at 0x8048984: montee (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10398==  Address 0x426b1bc is 4 bytes after a block of size 64 alloc'd
+==10398==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10398==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10398== 
+==10398== Invalid read of size 4
+==10398==    at 0x8048993: montee (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10398==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10398==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10398==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10398== 
+==10398== Invalid write of size 4
+==10398==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10398==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==10398== 
+==10398== 
+==10398== Process terminating with default action of signal 11 (SIGSEGV)
+==10398==  Access not within mapped region at address 0x8
+==10398==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10398==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10398==  If you believe this happened as a result of a stack
+==10398==  overflow in your program's main thread (unlikely but
+==10398==  possible), you can try to increase the size of the
+==10398==  main thread stack using the --main-stacksize= flag.
+==10398==  The main thread stack size used in this run was 8388608.
+==10398== 
+==10398== HEAP SUMMARY:
+==10398==     in use at exit: 2,380 bytes in 17 blocks
+==10398==   total heap usage: 22 allocs, 5 frees, 9,420 bytes allocated
+==10398== 
+==10398== LEAK SUMMARY:
+==10398==    definitely lost: 64 bytes in 1 blocks
+==10398==    indirectly lost: 0 bytes in 0 blocks
+==10398==      possibly lost: 144 bytes in 1 blocks
+==10398==    still reachable: 2,172 bytes in 15 blocks
+==10398==         suppressed: 0 bytes in 0 blocks
+==10398== Rerun with --leak-check=full to see details of leaked memory
+==10398== 
+==10398== For counts of detected and suppressed errors, rerun with: -v
+==10398== ERROR SUMMARY: 29 errors from 4 contexts (suppressed: 0 from 0)
+./script: line 2: 10398 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10491== Memcheck, a memory error detector
+==10491== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10491== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10491== Command: ./prefix.out
+==10491== 
+==10491== Invalid write of size 4
+==10491==    at 0x80488A7: montee (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10491==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10491==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10491==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10491== 
+==10491== Invalid read of size 4
+==10491==    at 0x8048984: montee (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10491==  Address 0x426b1bc is 4 bytes after a block of size 64 alloc'd
+==10491==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10491==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10491== 
+==10491== Invalid read of size 4
+==10491==    at 0x8048993: montee (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10491==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10491==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10491==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10491== 
+==10491== Invalid write of size 4
+==10491==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10491==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==10491== 
+==10491== 
+==10491== Process terminating with default action of signal 11 (SIGSEGV)
+==10491==  Access not within mapped region at address 0x8
+==10491==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10491==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10491==  If you believe this happened as a result of a stack
+==10491==  overflow in your program's main thread (unlikely but
+==10491==  possible), you can try to increase the size of the
+==10491==  main thread stack using the --main-stacksize= flag.
+==10491==  The main thread stack size used in this run was 8388608.
+==10491== 
+==10491== HEAP SUMMARY:
+==10491==     in use at exit: 2,380 bytes in 17 blocks
+==10491==   total heap usage: 22 allocs, 5 frees, 9,420 bytes allocated
+==10491== 
+==10491== LEAK SUMMARY:
+==10491==    definitely lost: 64 bytes in 1 blocks
+==10491==    indirectly lost: 0 bytes in 0 blocks
+==10491==      possibly lost: 144 bytes in 1 blocks
+==10491==    still reachable: 2,172 bytes in 15 blocks
+==10491==         suppressed: 0 bytes in 0 blocks
+==10491== Rerun with --leak-check=full to see details of leaked memory
+==10491== 
+==10491== For counts of detected and suppressed errors, rerun with: -v
+==10491== ERROR SUMMARY: 29 errors from 4 contexts (suppressed: 0 from 0)
+./script: line 2: 10491 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10519== Memcheck, a memory error detector
+==10519== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10519== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10519== Command: ./prefix.out
+==10519== 
+==10519== Invalid write of size 4
+==10519==    at 0x80488A7: montee (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10519==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10519==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10519==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10519== 
+==10519== Invalid read of size 4
+==10519==    at 0x8048984: montee (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10519==  Address 0x426b1bc is 4 bytes after a block of size 64 alloc'd
+==10519==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10519==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10519== 
+==10519== Invalid read of size 4
+==10519==    at 0x8048993: montee (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10519==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10519==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10519==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10519== 
+==10519== Invalid write of size 4
+==10519==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10519==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==10519== 
+==10519== 
+==10519== Process terminating with default action of signal 11 (SIGSEGV)
+==10519==  Access not within mapped region at address 0x8
+==10519==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10519==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10519==  If you believe this happened as a result of a stack
+==10519==  overflow in your program's main thread (unlikely but
+==10519==  possible), you can try to increase the size of the
+==10519==  main thread stack using the --main-stacksize= flag.
+==10519==  The main thread stack size used in this run was 8388608.
+==10519== 
+==10519== HEAP SUMMARY:
+==10519==     in use at exit: 2,380 bytes in 17 blocks
+==10519==   total heap usage: 22 allocs, 5 frees, 9,420 bytes allocated
+==10519== 
+==10519== LEAK SUMMARY:
+==10519==    definitely lost: 64 bytes in 1 blocks
+==10519==    indirectly lost: 0 bytes in 0 blocks
+==10519==      possibly lost: 144 bytes in 1 blocks
+==10519==    still reachable: 2,172 bytes in 15 blocks
+==10519==         suppressed: 0 bytes in 0 blocks
+==10519== Rerun with --leak-check=full to see details of leaked memory
+==10519== 
+==10519== For counts of detected and suppressed errors, rerun with: -v
+==10519== ERROR SUMMARY: 29 errors from 4 contexts (suppressed: 0 from 0)
+./script: line 2: 10519 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ subl script 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ subl script [3P./[C[C[C[C[C[C[C
+==10556== Memcheck, a memory error detector
+==10556== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10556== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10556== Command: ./prefix.out
+==10556== 
+==10556== Invalid write of size 4
+==10556==    at 0x80488A7: montee (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10556==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10556==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10556==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10556== 
+==10556== Invalid read of size 4
+==10556==    at 0x8048984: montee (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10556==  Address 0x426b1bc is 4 bytes after a block of size 64 alloc'd
+==10556==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10556==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10556== 
+==10556== Invalid read of size 4
+==10556==    at 0x8048993: montee (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10556==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10556==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10556==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10556== 
+==10556== Invalid write of size 4
+==10556==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10556==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==10556== 
+==10556== 
+==10556== Process terminating with default action of signal 11 (SIGSEGV)
+==10556==  Access not within mapped region at address 0x8
+==10556==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10556==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10556==  If you believe this happened as a result of a stack
+==10556==  overflow in your program's main thread (unlikely but
+==10556==  possible), you can try to increase the size of the
+==10556==  main thread stack using the --main-stacksize= flag.
+==10556==  The main thread stack size used in this run was 8388608.
+==10556== 
+==10556== HEAP SUMMARY:
+==10556==     in use at exit: 2,380 bytes in 17 blocks
+==10556==   total heap usage: 22 allocs, 5 frees, 9,420 bytes allocated
+==10556== 
+==10556== LEAK SUMMARY:
+==10556==    definitely lost: 64 bytes in 1 blocks
+==10556==    indirectly lost: 0 bytes in 0 blocks
+==10556==      possibly lost: 144 bytes in 1 blocks
+==10556==    still reachable: 2,172 bytes in 15 blocks
+==10556==         suppressed: 0 bytes in 0 blocks
+==10556== Rerun with --leak-check=full to see details of leaked memory
+==10556== 
+==10556== For counts of detected and suppressed errors, rerun with: -v
+==10556== ERROR SUMMARY: 29 errors from 4 contexts (suppressed: 0 from 0)
+./script: line 3: 10556 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ rm prefix.out 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ rm res_prefix.txt 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ rm res_prefix.txt [4Pprefix.ou[C[C[5P./scrip[C[C
+rm: cannot remove ‘res_prefix.txt’: No such file or directory
+==10589== Memcheck, a memory error detector
+==10589== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10589== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10589== Command: ./prefix.out
+==10589== 
+==10589== Invalid write of size 4
+==10589==    at 0x80488A7: montee (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10589==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10589==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10589==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10589== 
+==10589== Invalid read of size 4
+==10589==    at 0x8048984: montee (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10589==  Address 0x426b1bc is 4 bytes after a block of size 64 alloc'd
+==10589==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10589==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10589== 
+==10589== Invalid read of size 4
+==10589==    at 0x8048993: montee (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10589==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10589==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10589==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10589== 
+==10589== Invalid write of size 4
+==10589==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10589==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==10589== 
+==10589== 
+==10589== Process terminating with default action of signal 11 (SIGSEGV)
+==10589==  Access not within mapped region at address 0x8
+==10589==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10589==    by 0x80492F4: main (in /home/user/Desktop/TP3/prefix.out)
+==10589==  If you believe this happened as a result of a stack
+==10589==  overflow in your program's main thread (unlikely but
+==10589==  possible), you can try to increase the size of the
+==10589==  main thread stack using the --main-stacksize= flag.
+==10589==  The main thread stack size used in this run was 8388608.
+==10589== 
+==10589== HEAP SUMMARY:
+==10589==     in use at exit: 2,380 bytes in 17 blocks
+==10589==   total heap usage: 22 allocs, 5 frees, 9,420 bytes allocated
+==10589== 
+==10589== LEAK SUMMARY:
+==10589==    definitely lost: 64 bytes in 1 blocks
+==10589==    indirectly lost: 0 bytes in 0 blocks
+==10589==      possibly lost: 144 bytes in 1 blocks
+==10589==    still reachable: 2,172 bytes in 15 blocks
+==10589==         suppressed: 0 bytes in 0 blocks
+==10589== Rerun with --leak-check=full to see details of leaked memory
+==10589== 
+==10589== For counts of detected and suppressed errors, rerun with: -v
+==10589== ERROR SUMMARY: 29 errors from 4 contexts (suppressed: 0 from 0)
+./script: line 3: 10589 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10619== Memcheck, a memory error detector
+==10619== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10619== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10619== Command: ./prefix.out
+==10619== 
+==10619== 
+==10619== HEAP SUMMARY:
+==10619==     in use at exit: 2,380 bytes in 17 blocks
+==10619==   total heap usage: 22 allocs, 5 frees, 9,420 bytes allocated
+==10619== 
+==10619== LEAK SUMMARY:
+==10619==    definitely lost: 88 bytes in 4 blocks
+==10619==    indirectly lost: 320 bytes in 3 blocks
+==10619==      possibly lost: 144 bytes in 1 blocks
+==10619==    still reachable: 1,828 bytes in 9 blocks
+==10619==         suppressed: 0 bytes in 0 blocks
+==10619== Rerun with --leak-check=full to see details of leaked memory
+==10619== 
+==10619== For counts of detected and suppressed errors, rerun with: -v
+==10619== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10654== Memcheck, a memory error detector
+==10654== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10654== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10654== Command: ./prefix.out
+==10654== 
+==10654== 
+==10654== HEAP SUMMARY:
+==10654==     in use at exit: 2,452 bytes in 19 blocks
+==10654==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10654== 
+==10654== LEAK SUMMARY:
+==10654==    definitely lost: 88 bytes in 4 blocks
+==10654==    indirectly lost: 320 bytes in 3 blocks
+==10654==      possibly lost: 144 bytes in 1 blocks
+==10654==    still reachable: 1,900 bytes in 11 blocks
+==10654==         suppressed: 0 bytes in 0 blocks
+==10654== Rerun with --leak-check=full to see details of leaked memory
+==10654== 
+==10654== For counts of detected and suppressed errors, rerun with: -v
+==10654== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [K
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10680== Memcheck, a memory error detector
+==10680== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10680== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10680== Command: ./prefix.out
+==10680== 
+==10680== 
+==10680== HEAP SUMMARY:
+==10680==     in use at exit: 2,452 bytes in 19 blocks
+==10680==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10680== 
+==10680== LEAK SUMMARY:
+==10680==    definitely lost: 88 bytes in 4 blocks
+==10680==    indirectly lost: 320 bytes in 3 blocks
+==10680==      possibly lost: 144 bytes in 1 blocks
+==10680==    still reachable: 1,900 bytes in 11 blocks
+==10680==         suppressed: 0 bytes in 0 blocks
+==10680== Rerun with --leak-check=full to see details of leaked memory
+==10680== 
+==10680== For counts of detected and suppressed errors, rerun with: -v
+==10680== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [K]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10715== Memcheck, a memory error detector
+==10715== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10715== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10715== Command: ./prefix.out
+==10715== 
+==10715== 
+==10715== HEAP SUMMARY:
+==10715==     in use at exit: 2,452 bytes in 19 blocks
+==10715==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10715== 
+==10715== LEAK SUMMARY:
+==10715==    definitely lost: 88 bytes in 4 blocks
+==10715==    indirectly lost: 320 bytes in 3 blocks
+==10715==      possibly lost: 144 bytes in 1 blocks
+==10715==    still reachable: 1,900 bytes in 11 blocks
+==10715==         suppressed: 0 bytes in 0 blocks
+==10715== Rerun with --leak-check=full to see details of leaked memory
+==10715== 
+==10715== For counts of detected and suppressed errors, rerun with: -v
+==10715== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10743== Memcheck, a memory error detector
+==10743== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10743== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10743== Command: ./prefix.out
+==10743== 
+==10743== 
+==10743== HEAP SUMMARY:
+==10743==     in use at exit: 2,452 bytes in 19 blocks
+==10743==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10743== 
+==10743== LEAK SUMMARY:
+==10743==    definitely lost: 88 bytes in 4 blocks
+==10743==    indirectly lost: 320 bytes in 3 blocks
+==10743==      possibly lost: 144 bytes in 1 blocks
+==10743==    still reachable: 1,900 bytes in 11 blocks
+==10743==         suppressed: 0 bytes in 0 blocks
+==10743== Rerun with --leak-check=full to see details of leaked memory
+==10743== 
+==10743== For counts of detected and suppressed errors, rerun with: -v
+==10743== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script [K
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10769== Memcheck, a memory error detector
+==10769== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10769== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10769== Command: ./prefix.out
+==10769== 
+==10769== Use of uninitialised value of size 4
+==10769==    at 0x40FA28B: _itoa_word (_itoa.c:179)
+==10769==    by 0x40FDB01: vfprintf (vfprintf.c:1654)
+==10769==    by 0x41047FE: printf (printf.c:34)
+==10769==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10769==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10769== 
+==10769== Conditional jump or move depends on uninitialised value(s)
+==10769==    at 0x40FA293: _itoa_word (_itoa.c:179)
+==10769==    by 0x40FDB01: vfprintf (vfprintf.c:1654)
+==10769==    by 0x41047FE: printf (printf.c:34)
+==10769==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10769==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10769== 
+==10769== Conditional jump or move depends on uninitialised value(s)
+==10769==    at 0x40FAFC5: vfprintf (vfprintf.c:1654)
+==10769==    by 0x41047FE: printf (printf.c:34)
+==10769==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10769==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10769== 
+==10769== Conditional jump or move depends on uninitialised value(s)
+==10769==    at 0x40FB041: vfprintf (vfprintf.c:1654)
+==10769==    by 0x41047FE: printf (printf.c:34)
+==10769==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10769==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10769== 
+==10769== Conditional jump or move depends on uninitialised value(s)
+==10769==    at 0x40FF308: vfprintf (vfprintf.c:1654)
+==10769==    by 0x41047FE: printf (printf.c:34)
+==10769==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10769==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10769== 
+==10769== Conditional jump or move depends on uninitialised value(s)
+==10769==    at 0x40FB098: vfprintf (vfprintf.c:1654)
+==10769==    by 0x41047FE: printf (printf.c:34)
+==10769==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10769==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10769== 
+==10769== Conditional jump or move depends on uninitialised value(s)
+==10769==    at 0x40FB0D1: vfprintf (vfprintf.c:1654)
+==10769==    by 0x41047FE: printf (printf.c:34)
+==10769==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10769==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10769== 
+==10769== 
+==10769== HEAP SUMMARY:
+==10769==     in use at exit: 2,452 bytes in 19 blocks
+==10769==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10769== 
+==10769== LEAK SUMMARY:
+==10769==    definitely lost: 88 bytes in 4 blocks
+==10769==    indirectly lost: 320 bytes in 3 blocks
+==10769==      possibly lost: 144 bytes in 1 blocks
+==10769==    still reachable: 1,900 bytes in 11 blocks
+==10769==         suppressed: 0 bytes in 0 blocks
+==10769== Rerun with --leak-check=full to see details of leaked memory
+==10769== 
+==10769== For counts of detected and suppressed errors, rerun with: -v
+==10769== Use --track-origins=yes to see where uninitialised values come from
+==10769== ERROR SUMMARY: 63 errors from 7 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10789== Memcheck, a memory error detector
+==10789== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10789== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10789== Command: ./prefix.out
+==10789== 
+==10789== Use of uninitialised value of size 4
+==10789==    at 0x40FA28B: _itoa_word (_itoa.c:179)
+==10789==    by 0x40FDB01: vfprintf (vfprintf.c:1654)
+==10789==    by 0x41047FE: printf (printf.c:34)
+==10789==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10789==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10789== 
+==10789== Conditional jump or move depends on uninitialised value(s)
+==10789==    at 0x40FA293: _itoa_word (_itoa.c:179)
+==10789==    by 0x40FDB01: vfprintf (vfprintf.c:1654)
+==10789==    by 0x41047FE: printf (printf.c:34)
+==10789==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10789==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10789== 
+==10789== Conditional jump or move depends on uninitialised value(s)
+==10789==    at 0x40FAFC5: vfprintf (vfprintf.c:1654)
+==10789==    by 0x41047FE: printf (printf.c:34)
+==10789==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10789==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10789== 
+==10789== Conditional jump or move depends on uninitialised value(s)
+==10789==    at 0x40FB041: vfprintf (vfprintf.c:1654)
+==10789==    by 0x41047FE: printf (printf.c:34)
+==10789==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10789==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10789== 
+==10789== Conditional jump or move depends on uninitialised value(s)
+==10789==    at 0x40FF308: vfprintf (vfprintf.c:1654)
+==10789==    by 0x41047FE: printf (printf.c:34)
+==10789==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10789==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10789== 
+==10789== Conditional jump or move depends on uninitialised value(s)
+==10789==    at 0x40FB098: vfprintf (vfprintf.c:1654)
+==10789==    by 0x41047FE: printf (printf.c:34)
+==10789==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10789==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10789== 
+==10789== Conditional jump or move depends on uninitialised value(s)
+==10789==    at 0x40FB0D1: vfprintf (vfprintf.c:1654)
+==10789==    by 0x41047FE: printf (printf.c:34)
+==10789==    by 0x8049078: suffixe (in /home/user/Desktop/TP3/prefix.out)
+==10789==    by 0x80492ED: main (in /home/user/Desktop/TP3/prefix.out)
+==10789== 
+==10789== 
+==10789== HEAP SUMMARY:
+==10789==     in use at exit: 2,452 bytes in 19 blocks
+==10789==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10789== 
+==10789== LEAK SUMMARY:
+==10789==    definitely lost: 88 bytes in 4 blocks
+==10789==    indirectly lost: 320 bytes in 3 blocks
+==10789==      possibly lost: 144 bytes in 1 blocks
+==10789==    still reachable: 1,900 bytes in 11 blocks
+==10789==         suppressed: 0 bytes in 0 blocks
+==10789== Rerun with --leak-check=full to see details of leaked memory
+==10789== 
+==10789== For counts of detected and suppressed errors, rerun with: -v
+==10789== Use --track-origins=yes to see where uninitialised values come from
+==10789== ERROR SUMMARY: 112 errors from 7 contexts (suppressed: 0 from 0)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+==10822== Memcheck, a memory error detector
+==10822== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10822== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10822== Command: ./prefix.out
+==10822== 
+==10822== Invalid write of size 4
+==10822==    at 0x80488A7: montee (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10822==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10822==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10822==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10822== 
+==10822== Invalid read of size 4
+==10822==    at 0x8048984: montee (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10822==  Address 0x426b1bc is 4 bytes after a block of size 64 alloc'd
+==10822==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10822==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10822== 
+==10822== Invalid read of size 4
+==10822==    at 0x8048993: montee (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10822==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10822==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10822==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10822== 
+==10822== Invalid write of size 4
+==10822==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10822==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==10822== 
+==10822== 
+==10822== Process terminating with default action of signal 11 (SIGSEGV)
+==10822==  Access not within mapped region at address 0x8
+==10822==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10822==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10822==  If you believe this happened as a result of a stack
+==10822==  overflow in your program's main thread (unlikely but
+==10822==  possible), you can try to increase the size of the
+==10822==  main thread stack using the --main-stacksize= flag.
+==10822==  The main thread stack size used in this run was 8388608.
+==10822== 
+==10822== HEAP SUMMARY:
+==10822==     in use at exit: 2,452 bytes in 19 blocks
+==10822==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10822== 
+==10822== LEAK SUMMARY:
+==10822==    definitely lost: 64 bytes in 1 blocks
+==10822==    indirectly lost: 0 bytes in 0 blocks
+==10822==      possibly lost: 144 bytes in 1 blocks
+==10822==    still reachable: 2,244 bytes in 17 blocks
+==10822==         suppressed: 0 bytes in 0 blocks
+==10822== Rerun with --leak-check=full to see details of leaked memory
+==10822== 
+==10822== For counts of detected and suppressed errors, rerun with: -v
+==10822== ERROR SUMMARY: 29 errors from 4 contexts (suppressed: 0 from 0)
+./script: line 3: 10822 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ d[Ksubl script 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ subl script 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ subl script [3P./[C[C[C[C[C[C[C
+==10874== Memcheck, a memory error detector
+==10874== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==10874== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==10874== Command: ./prefix.out
+==10874== 
+==10874== Invalid write of size 4
+==10874==    at 0x80488A7: montee (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10874==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10874==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10874==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10874== 
+==10874== Invalid read of size 4
+==10874==    at 0x8048984: montee (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10874==  Address 0x426b1bc is 4 bytes after a block of size 64 alloc'd
+==10874==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10874==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10874== 
+==10874== Invalid read of size 4
+==10874==    at 0x8048993: montee (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8048E9C: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10874==  Address 0x426b1b8 is 0 bytes after a block of size 64 alloc'd
+==10874==    at 0x40299D8: malloc (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==10874==    by 0x8049184: main (in /home/user/Desktop/TP3/prefix.out)
+==10874== 
+==10874== Invalid write of size 4
+==10874==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10874==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+==10874== 
+==10874== 
+==10874== Process terminating with default action of signal 11 (SIGSEGV)
+==10874==  Access not within mapped region at address 0x8
+==10874==    at 0x8048A11: descente (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8048ECC: prefix (in /home/user/Desktop/TP3/prefix.out)
+==10874==    by 0x8049328: main (in /home/user/Desktop/TP3/prefix.out)
+==10874==  If you believe this happened as a result of a stack
+==10874==  overflow in your program's main thread (unlikely but
+==10874==  possible), you can try to increase the size of the
+==10874==  main thread stack using the --main-stacksize= flag.
+==10874==  The main thread stack size used in this run was 8388608.
+==10874== 
+==10874== HEAP SUMMARY:
+==10874==     in use at exit: 2,452 bytes in 19 blocks
+==10874==   total heap usage: 24 allocs, 5 frees, 9,492 bytes allocated
+==10874== 
+==10874== LEAK SUMMARY:
+==10874==    definitely lost: 64 bytes in 1 blocks
+==10874==    indirectly lost: 0 bytes in 0 blocks
+==10874==      possibly lost: 144 bytes in 1 blocks
+==10874==    still reachable: 2,244 bytes in 17 blocks
+==10874==         suppressed: 0 bytes in 0 blocks
+==10874== Rerun with --leak-check=full to see details of leaked memory
+==10874== 
+==10874== For counts of detected and suppressed errors, rerun with: -v
+==10874== ERROR SUMMARY: 29 errors from 4 contexts (suppressed: 0 from 0)
+./script: line 3: 10874 Killed                  valgrind ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+./script: line 3: 10902 Segmentation fault      (core dumped) ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+./script: line 3: 10927 Segmentation fault      (core dumped) ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./script 
+./script: line 3: 10952 Segmentation fault      (core dumped) ./prefix.out > res_prefix.txt
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gccc [K[K exo3.c
+/tmp/ccopxu4u.o: In function `montee':
+exo3.c:(.text+0x17b): undefined reference to `log2'
+exo3.c:(.text+0x183): undefined reference to `ceil'
+exo3.c:(.text+0x1b7): undefined reference to `pow'
+exo3.c:(.text+0x1bf): undefined reference to `ceil'
+exo3.c:(.text+0x273): undefined reference to `pow'
+exo3.c:(.text+0x27b): undefined reference to `ceil'
+/tmp/ccopxu4u.o: In function `descente':
+exo3.c:(.text+0x2e9): undefined reference to `pow'
+exo3.c:(.text+0x2f1): undefined reference to `ceil'
+exo3.c:(.text+0x325): undefined reference to `pow'
+exo3.c:(.text+0x32d): undefined reference to `ceil'
+exo3.c:(.text+0x3f2): undefined reference to `log2'
+exo3.c:(.text+0x3fa): undefined reference to `ceil'
+exo3.c:(.text+0x43d): undefined reference to `pow'
+exo3.c:(.text+0x445): undefined reference to `ceil'
+exo3.c:(.text+0x479): undefined reference to `pow'
+exo3.c:(.text+0x481): undefined reference to `ceil'
+exo3.c:(.text+0x53e): undefined reference to `log2'
+exo3.c:(.text+0x546): undefined reference to `ceil'
+/tmp/ccopxu4u.o: In function `final':
+exo3.c:(.text+0x586): undefined reference to `log2'
+exo3.c:(.text+0x58e): undefined reference to `ceil'
+exo3.c:(.text+0x5b9): undefined reference to `pow'
+exo3.c:(.text+0x5c1): undefined reference to `ceil'
+exo3.c:(.text+0x5f5): undefined reference to `pow'
+exo3.c:(.text+0x601): undefined reference to `ceil'
+collect2: error: ld returned 1 exit status
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 
+Segmentation fault (core dumped)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -lm[6P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 
+Segmentation fault (core dumped)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -lm[6P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 
+Segmentation fault (core dumped)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ rm[K[K[H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -lm[6P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 
+Segmentation fault (core dumped)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -lm[6P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+Segmentation fault (core dumped)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -lm[6P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -lm[C-lmf-lmo-lmp-lme-lm
+-fopenmp          -foperator-names  
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fope-lm
+-fopenmp          -foperator-names  
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fope-lm
+-fopenmp          -foperator-names  
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fope-lmn-lmmp-lm -lm[H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+exo3.c: In function ‘descente’:
+exo3.c:99:27: error: ‘j’ undeclared (first use in this function)
+      printf("%d______\n", j);
+                           ^
+exo3.c:99:27: note: each undeclared identifier is reported only once for each function it appears in
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+Segmentation fault (core dumped)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+4______
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 
+---- Array of size 16 ---- 
+0 17 149426360 16 0 73 0 19 26 -7 9 17 -10 3 5 4 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm[15P./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out gcc exo3.c -fopenmp -lm[15P./a.out gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 -100 -100 11 -100 11 11 11 -100 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 152563896 16 0 73 0 11 11 4 11 10 1 4 3 11 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+Segmentation fault (core dumped)
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 -100 -100 11 -100 11 11 11 -100 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 138592704 32 0 137 0 19 26 -7 9 17 -10 3 5 4 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 -100 -100 11 -100 11 11 11 -100 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 144052672 32 0 137 0 19 26 -7 9 17 -10 3 5 4 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 -100 -100 11 -100 11 11 11 -100 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 153178560 32 0 137 0 19 26 -7 9 17 -10 3 5 4 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 -100 -100 11 -100 11 11 11 -100 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 144953792 32 0 137 0 19 26 -7 9 17 -10 3 5 4 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 -100 -100 11 -100 11 11 11 -100 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 148615616 32 0 137 0 19 26 -7 9 17 -10 3 5 4 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 0 0 11 0 11 11 11 0 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 156881344 32 0 137 0 19 26 -7 9 17 -10 3 5 4 
+############################ 
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ [H[2J]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ ./a.out gcc exo3.c -fopenmp -lm
+]0;user@ubuntu: ~/Desktop/TP3user@ubuntu:~/Desktop/TP3$ gcc exo3.c -fopenmp -lm[15P./a.out 
+---- Array of size 32 ---- 
+0 19 26 -7 9 17 -10 3 5 4 4 13 -5 -5 1 2 3 2 -7 11 10 -6 4 9 -6 1 -2 -3 4 -3 0 2 
+---- Array of size 32 ---- 
+0 0 0 26 0 9 26 16 0 5 9 13 26 21 16 17 0 3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 
+---- Array of size 16 ---- 
+3 5 -2 9 19 13 17 26 20 21 19 16 20 17 17 19 
+############################ 
+---- Array of size 16 ---- 
+19 16 14 21 10 0 6 2 -7 -1 -2 0 3 -1 2 2 
+############################ 
+---- Array of size 16 ---- 
+0 11 11 4 11 10 1 4 3 11 10 9 1 -2 4 2 
+1______
+1______
+2______
+2______
+2______
+2______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+3______
+---- Array of size 16 ---- 
+0 0 0 11 0 11 11 11 0 3 11 11 11 11 11 11 
+---- Array of size 16 ---- 
+0 17 151634368 32 0 137 0 19 26 -7 9 17 -10 3 5 

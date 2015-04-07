@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in {1..20}
+do
+valgrind ./prefix_suffix.out test1.txt $i >> benchParallelEx1.dat 
+done

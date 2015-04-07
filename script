@@ -1,0 +1,10 @@
+rm res_prefix_suffix*.txt
+rm prefix_suffix.out
+gcc -Wall -fopenmp myMain.c  -lm -o prefix_suffix.out
+valgrind ./prefix_suffix.out test2 > res_prefix_suffix1.txt
+#echo '_______________________________________________________'
+#valgrind ./prefix_suffix.out test2.txt > res_prefix_suffix2.txt
+#echo '________________________________________________________'
+#valgrind ./prefix_suffix.out test3.txt > res_prefix_suffix3.txt
+
+subl res_prefix_suffix*.txt &
