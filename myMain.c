@@ -4,10 +4,10 @@
 int main(int argc, char **argv) {
 	
 	generateArray(&source,argv[1]);
-	printArray(&source,"Q");
-	struct tablo * temp =  malloc(sizeof(struct tablo));
-	temp->tab = malloc(source.size*2*sizeof(int));
-	temp->size = source.size*2;
+	//printArray(&source,"Q");
+	// struct tablo * temp =  malloc(sizeof(struct tablo));
+	// temp->tab = malloc(source.size*2*sizeof(int));
+	// temp->size = source.size*2;
 	// copieTableau(&source,temp);
 	// gettimeofday(&t1,NULL);
 	// montee(&source,temp,'m');
@@ -52,20 +52,19 @@ int main(int argc, char **argv) {
 
 	prefix(source,a,PSUM,'s'); 
 
-	printArray(PSUM,"PSUM");
+	//printArray(PSUM,"PSUM");
 
 	suffixe(PSUM, SSUM, 's');
 
-	printArray(SSUM,"SSUM");
-	printArray(PSUM,"kkk");
+	//printArray(SSUM,"SSUM");
 	suffixe(PSUM,SMAX,'m');
-	printArray(SMAX,"SMAX");
+	//printArray(SMAX,"SMAX");
 
 
 
 	prefix(*SSUM,a,PMAX,'m');
 
-	printArray(PMAX,"PMAX");
+	//printArray(PMAX,"PMAX");
 
 	int i;
 	#pragma omp parallel for
@@ -78,28 +77,30 @@ int main(int argc, char **argv) {
 
 
 
-	printf("M = ");
-	printf("[");
-	for (i = 0; i < M->size; i++)
-	{
-	  printf(" %d", M->tab[i]);
-	}
-	 printf("]\n");
-	printf("************************\n RESULTAT FINAL \n********************** \n");
+	//printf("M = ");
+	//printf("[");
+	// for (i = 0; i < M->size; i++)
+	// {
+	//   printf(" %d", M->tab[i]);
+	// }
+	//  printf("]\n");
+	// printf("************************\n RESULTAT FINAL \n********************** \n");
 
-	copieTableau(M,temp);
-	montee(M,temp,'m');
-	int max =temp->tab[1];
-	printf("[%d", max); 
+	// copieTableau(M,temp);
+	// montee(M,temp,'m');
+	// int max =temp->tab[1];
+	// printf("[%d", max); 
 	
-	#pragma omp parallel for
-	for (i = 0; i < M->size; i++)
-	{
-	  if(M->tab[i]==max){
-	    printf(" %d", source.tab[i]);
-	  }
-	}
-	printf("]\n");
+	// #pragma omp parallel for
+	// for (i = 0; i < M->size; i++)
+	// {
+	//   if(M->tab[i]==max){
+	//     printf(" %d", source.tab[i]);
+	//   }
+	// }
+	// printf("]\n");
+
+	maxM(M);
 
 	// gettimeofday(&t2,NULL);
 	// //printf("___________________________________________________________");

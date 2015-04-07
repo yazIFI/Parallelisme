@@ -58,7 +58,7 @@ void generateArray(struct tablo *source, char *nomFichier)
     {
       coef = -1;
     }
-    else if (nbCarLu != 0 && (caractere == '\n' || caractere == '\t' || caractere == ' ')){
+    else if (nbCarLu != 0 && (caractere == '\n' || caractere == '\t' || caractere == ' ' || caractere == EOF)){
         int elt = atoi(temp) * coef;
         source->tab[positEltSuiv] = elt ;
         positEltSuiv++;
@@ -81,14 +81,3 @@ void generateArray(struct tablo *source, char *nomFichier)
 }
 
 
-int maxM(struct tablo * M){
-
-  int i;
-  int max=M->tab[0];
-  for (i = 1; i < M->size; ++i)
-  {
-    if(max<M->tab[i]){max=M->tab[i];}
-  }
-
-  return max;
-}

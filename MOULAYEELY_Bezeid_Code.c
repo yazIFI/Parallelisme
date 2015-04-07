@@ -299,3 +299,35 @@ struct tablo * montee2(struct tablo *source){
   return tabi;
 }
 
+
+
+int maxM(struct tablo * M){
+
+  int i;
+  int mni=0;
+  int mxi=0;
+  int max =M->tab[0];
+  struct valeur *value = malloc(sizeof(struct valeur));
+  #pragma omp parallel for 
+  for (i = 0; i < M->size; i+=2)
+  {
+    value = maxtabi(M->tab,M->tab,i,i+1);
+    if(M->tab[i]==M->tab[i+1]){
+      if(M->tab[mxi]<=M->tab[i+1]){mxi=i+1; max = value->val;}
+    }
+    if(M->tab[mni] < value->val ){
+      mxi = value->index ; mni=value->index; max = value->val;
+    }
+   
+  }
+ // printf("%d %d %d\n",max , mni, mxi);
+  printf("%d ", max);
+  for (i = mni; i < mxi; i++)
+  {
+      printf("%d ",source.tab[i]);
+  }
+   printf("%d\n",source.tab[i]);
+  
+
+  return max;
+}
